@@ -1,0 +1,106 @@
+*{
+    background-color: antiquewhite;
+    
+}
+.contact-left {
+    flex-basis: 35%;
+    font-size: 20px;
+}
+.contact-left a{
+    
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: font-style color 0.5s;
+}
+.contact-left a>p:hover{
+    font-style: oblique;
+    color: #524439;
+    transform: translateY(-5px);
+}
+.contact-left .title{
+    margin-left: 40%;
+}
+.contact-right{
+    margin-left: 25%;
+}
+.contact-left p{
+    margin-top: 50px;
+    margin-left: 38%;
+}
+.contact-left p i{
+    color: #5b3535;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.icons{
+    margin-top: 30px;
+    margin-left: 20%;
+
+}
+.icons a{
+    font-size: 30px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #f9f9f9;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.icons a:hover{
+    color: #15799d;
+    transform: translateY(-5px);
+    
+
+}
+.btn.btn2 {
+    display: inline-block;
+    width: 20%;
+    height: 150%;
+    background-color: #040102;
+    color: white;
+    margin-left: 50%;
+    margin-top: 8%;
+    transition: transform 0.5s;
+    
+}
+.btn.btn2:hover{
+    background-color: rgb(83, 74, 62);
+    color: rgb(255, 254, 254);
+    transform: translateY(-6px);
+}
+
+.contact-right form{
+    width: 80%;
+}
+form input,form textarea{
+    width: 90%;
+    border: 0;
+    outline: none;
+    background: #b99f8d;
+    padding: 15px;
+    margin: 15px 0;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 6px;
+}
+.btn.btn3{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+form button{
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: #58473a;
+    font-size: 14px;
+    margin-top: 20px;
+    
+}
+#msg{
+    color: #000000;
+    margin-top: -80px;
+    display: block;
+}

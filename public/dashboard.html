@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSO : Dashboard</title>
+
+    <link rel="icon" type="image/png" href="img/house-decoration.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+    
+    <img src="../img/loading.gif" class="loader">
+
+    <div class="add-product">
+        <p class="text" id="seller-greeting">Hello, </p>
+        <a href="/add-product" class="add-product-btn">add product</a>
+    </div>
+
+    <img src="../img/no product.png" class="no-product">
+
+    <section class="seller-products">
+        <div class="product-container">
+              <div class="product-card">
+                <button class="btn edit-btn"><img src="img/edit.png"></button>
+                <button class="btn open-btn"><img src="img/open.png">CART</button>
+                <button class="btn delete-btn"><img src="img/delete.png"></button>
+                <img src="img/product-1.png" class="product-img" alt="">
+                <p class="product-name">lights </p>
+            </div>  
+        </div>
+    </section>
+
+    <script src="../js/createProduct.js"></script>
+    <script src="../js/dashboard.js"></script>
+    
+
+</body>
+</html>

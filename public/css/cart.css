@@ -1,0 +1,166 @@
+.cart-section{
+    margin-top: 100px;
+    width: 100%;
+    padding: 20px 10vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product-list{
+    width: 70%;
+}
+
+.section-heading{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.cart-container{
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 60px;
+    font-family: 'lato', sans-serif;
+}
+
+.empty-img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.sm-product{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cart-container .sm-product:last-child{
+    margin-bottom: 0;
+}
+
+.sm-product-img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.sm-text{
+    width: 50%;
+}
+
+.sm-product-name{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.sm-des{
+    font-size: 18px;
+    opacity: 0.5;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.item-counter{
+    width: 90px;
+    height: 30px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.counter-btn, .item-count{
+    width: 30px;
+    height: 30px;
+}
+
+.counter-btn{
+    background-color: #f3f3f3;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.item-count{
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+}
+
+.sm-price{
+    font-size: 25px;
+    font-weight: 500;
+    color: #383838;
+}
+
+.sm-delete-btn{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid rgb(216, 216, 216);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.sm-delete-btn img{
+    height: 15px;
+}
+
+.checkout-section{
+    width: 30%;
+}
+
+.checkout-box{
+    width: 100%;
+    height: 200px;
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    padding: 20px;
+}
+
+.text{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.checkout-btn{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    background: #1d1d1d;
+    color: #fff;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.bill{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px 0;
+}

@@ -1,0 +1,27 @@
+*{
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 5%;
+    
+    
+    
+}
+.navbar{
+    margin-top: -1%;
+    
+}
+.user-interactions{
+    margin-top: 0%;
+}
+.link{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.navbar.bg .link, .navbar.dark .link{
+    color: rgb(238, 132, 132);
+    opacity: 0.5;
+}
