@@ -21,13 +21,13 @@ We leverage the power of Google Spreadsheets to create a dynamic marketplace whe
 
 ## Screenshots
 1. **Home Page**:
-![Input Screen](screenshots/homepage.png)
+![Input Screen](screenshots/homepage.jpg)
 2. **Login Page**:
-![Output Screen](screenshots/loginpage.png)
+![Output Screen](screenshots/loginpage.jpg)
 3. **SignUp Page**:
-![Output Screen](screenshots/signupPage.png)
+![Output Screen](screenshots/signupPage.jpg)
 4. **Seller's SignUp Page**:
-![Output Screen](screenshots/seller_signupPage.png)
+![Output Screen](screenshots/seller_signupPage.jpg)
 5. **Product Page**:
 ![Output Screen](screenshots/productPage.png)
 6. **Cart Page**:
